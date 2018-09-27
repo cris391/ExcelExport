@@ -1,0 +1,28 @@
+{
+  "name": "hubspotapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "idep": "sudo gem install podio && npm i",
+    "git": "git add . && git commit -m 'nomessage' && git push origin master",
+    "start": "node fetchAndUpload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@log4js-node/slack": "^1.0.0",
+    "dateformat": "^3.0.3",
+    "exceljs": "^1.6.0",
+    "fs-extra": "^7.0.0",
+    "googleapis": "^32.0.0",
+    "json2xls": "^0.1.2",
+    "log4js": "^3.0.5",
+    "moment": "^2.22.2",
+    "readline": "^1.3.0",
+    "request": "^2.88.0",
+    "sleep": "^5.2.3",
+    "xlsx": "^0.13.5"
+  }
+}

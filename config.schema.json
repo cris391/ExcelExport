@@ -1,0 +1,55 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "slackToken",
+    "podioApiSecret",
+    "podioUser",
+    "podioPass"
+  ],
+  "properties": {
+    "slackToken": {
+      "$id": "#/properties/slackToken",
+      "type": "string",
+      "title": "The Slacktoken Schema",
+      "default": "",
+      "examples": [
+        "exampletoken"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "podioApiSecret": {
+      "$id": "#/properties/podioApiSecret",
+      "type": "string",
+      "title": "The Podioapisecret Schema",
+      "default": "",
+      "examples": [
+        "examplesecret"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "podioUser": {
+      "$id": "#/properties/podioUser",
+      "type": "string",
+      "title": "The Podiouser Schema",
+      "default": "",
+      "examples": [
+        "email"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "podioPass": {
+      "$id": "#/properties/podioPass",
+      "type": "string",
+      "title": "The Podiopass Schema",
+      "default": "",
+      "examples": [
+        "pass"
+      ],
+      "pattern": "^(.*)$"
+    }
+  }
+}
